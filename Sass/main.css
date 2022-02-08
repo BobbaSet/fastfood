@@ -20,6 +20,11 @@ nav img {
   width: 80px;
   height: 80px;
 }
+nav a {
+  text-decoration: none;
+  color: #d43d3d;
+  padding: 20px;
+}
 
 footer {
   display: flex;
@@ -33,7 +38,7 @@ footer ul {
   list-style: none;
   padding: 20px;
   font-size: 16px;
-  color: #c94e4e;
+  color: #d43d3d;
 }
 footer li {
   padding-right: 50px;
@@ -42,7 +47,7 @@ footer li {
 
 .para_footer {
   background-color: black;
-  color: #c94e4e;
+  color: #d43d3d;
   margin: 0;
   font-size: 20px;
   text-align: center;
