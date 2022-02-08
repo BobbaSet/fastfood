@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #c94e4e;
+}
+nav li {
+  padding: 10px;
+}
+nav .food {
+  width: 30px;
+  height: 30px;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+}
