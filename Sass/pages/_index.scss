@@ -1,0 +1,23 @@
+.flex_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+
+    li{
+        padding: 5px;
+    }
+    
+    #map {
+    width: 600px;
+    height: 300px;
+}
+}
+

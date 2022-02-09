@@ -100,5 +100,25 @@ footer li {
 body {
   background-color: white;
   margin: 0 auto;
-  max-width: 1400px;
+  width: 1400px;
+}
+
+.flex_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.flex_home ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+.flex_home li {
+  padding: 5px;
+}
+.flex_home #map {
+  width: 600px;
+  height: 300px;
 }
