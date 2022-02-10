@@ -1,5 +1,8 @@
+@import '../abstract/variables.scss';
+
 .color{
     background-color: black;
+    margin: 0;
 }
 
 .grid{
@@ -10,8 +13,15 @@
     margin: 0px auto;
     justify-content: center;
     gap: 200px;
-    margin-top: 150px;
-    margin-bottom: 200px;
+
+    p{
+        background-color: $menu;
+        margin: 0 auto;
+        padding: 3px;
+        margin-bottom: 8px;
+        font-size: 20px;
+        width: 70px;
+    }
 
 
     .grid-items{
@@ -24,7 +34,7 @@
         width: 100px;
         font-size: 18px;
         padding: 3px;
-        background-color: white;
+        background-color: $menu;
         left: 150px;
         bottom: 30px;
     }
