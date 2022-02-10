@@ -40,6 +40,10 @@ footer ul {
   font-size: 16px;
   color: #d43d3d;
 }
+footer ul img {
+  width: 40px;
+  height: 40px;
+}
 footer li {
   padding-right: 50px;
   padding-left: 50px;
@@ -161,6 +165,12 @@ body {
   padding: 5px;
 }
 .flex_home #map {
-  width: 600px;
+  width: 500px;
   height: 300px;
+}
+
+.menu {
+  width: 1400px;
+  height: auto;
+  margin: 0;
 }
