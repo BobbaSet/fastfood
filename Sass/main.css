@@ -115,15 +115,17 @@ body {
   width: 5px;
   margin: 0px auto;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
 }
-.grid p {
+.grid .name {
   background-color: #d43d3d;
   margin: 0 auto;
+  text-align: center;
   padding: 3px;
+  width: 100px;
+  border-radius: 4px;
   margin-bottom: 8px;
   font-size: 20px;
-  width: 70px;
 }
 .grid .grid-items {
   position: relative;
@@ -134,9 +136,9 @@ body {
   width: 100px;
   font-size: 18px;
   padding: 3px;
-  background-color: #d43d3d;
-  left: 150px;
-  bottom: 30px;
+  background-color: white;
+  left: 147px;
+  bottom: 33px;
 }
 .grid img {
   width: 250px;
