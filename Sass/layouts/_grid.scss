@@ -1,0 +1,37 @@
+.color{
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1400px;
+    width: 5px;
+    margin: 0px auto;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+
+    .grid-items{
+        position: relative;
+        padding: 3px;
+        
+        
+        .price{
+        position: absolute;
+        width: 100px;
+        font-size: 18px;
+        padding: 3px;
+        background-color: white;
+        left: 150px;
+        bottom: 30px;
+    }
+        
+    }
+        img{
+            width: 250px;
+        }
+ 
+}
