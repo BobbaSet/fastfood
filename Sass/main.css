@@ -63,8 +63,8 @@ footer li {
 }
 #caroussel .images {
   display: flex;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-name: foods;
           animation-name: foods;
   -webkit-animation-iteration-count: infinite;
@@ -76,13 +76,13 @@ footer li {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-1400px);
+    transform: translateX(-1500px);
   }
   50% {
-    transform: translateX(-2800px);
+    transform: translateX(-3000px);
   }
   75% {
-    transform: translateX(-4200px);
+    transform: translateX(-4500px);
   }
   100% {
     transform: translateX(0);
@@ -94,13 +94,13 @@ footer li {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-1400px);
+    transform: translateX(-1500px);
   }
   50% {
-    transform: translateX(-2800px);
+    transform: translateX(-3000px);
   }
   75% {
-    transform: translateX(-4200px);
+    transform: translateX(-4500px);
   }
   100% {
     transform: translateX(0);
