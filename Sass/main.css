@@ -76,10 +76,13 @@ footer li {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-640px);
+    transform: translateX(-1400px);
   }
   50% {
-    transform: translateX(-1200px);
+    transform: translateX(-2800px);
+  }
+  75% {
+    transform: translateX(-4200px);
   }
   100% {
     transform: translateX(0);
@@ -91,10 +94,13 @@ footer li {
     transform: translateX(0);
   }
   25% {
-    transform: translateX(-640px);
+    transform: translateX(-1400px);
   }
   50% {
-    transform: translateX(-1200px);
+    transform: translateX(-2800px);
+  }
+  75% {
+    transform: translateX(-4200px);
   }
   100% {
     transform: translateX(0);
