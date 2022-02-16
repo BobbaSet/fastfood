@@ -35,8 +35,18 @@
     }
     
     img{
-    width: 1200px;
+    width: 700px;
     height: 900px;
-    margin: 0 auto;
+    margin: 0;
+    }
+
+    .bucket{
+        width: 700px;
+        height: 1000px;
+    }
+
+    .child{
+        width: 700px;
+        margin:0;
     }
 }

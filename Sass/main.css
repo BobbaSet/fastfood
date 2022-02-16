@@ -193,7 +193,15 @@ p, ul, li {
   font-family: "Dela Gothic One", cursive;
 }
 .menu img {
-  width: 1200px;
+  width: 700px;
   height: 900px;
-  margin: 0 auto;
+  margin: 0;
+}
+.menu .bucket {
+  width: 700px;
+  height: 1000px;
+}
+.menu .child {
+  width: 700px;
+  margin: 0;
 }
