@@ -83,6 +83,37 @@
             height: 80px;
             padding: 10px;
             margin: 0 auto;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+
+        img:hover{
+            -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
         }
     }
 }
+
+.btn{
+    height: 80px;
+    width: 80px;
+    background: $menu;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+
+    .icone{
+    width: 50px;
+    color: transparent;
+}
+}
+@media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
