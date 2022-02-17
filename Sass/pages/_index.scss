@@ -54,6 +54,8 @@
 .service{
     width: 500px;
     margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
     h1{
     text-align: center;
@@ -70,5 +72,17 @@
     .livraison{
         display: flex;
         list-style: none;
+        margin-top: 40px;
+
+        li{
+            text-align: center;
+        }
+
+        img{
+            width: 80px;
+            height: 80px;
+            padding: 10px;
+            margin: 0 auto;
+        }
     }
 }

@@ -207,6 +207,8 @@ body p, body ul, body li {
 .service {
   width: 500px;
   margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .service h1 {
   text-align: center;
@@ -222,4 +224,14 @@ body p, body ul, body li {
 .service .livraison {
   display: flex;
   list-style: none;
+  margin-top: 40px;
+}
+.service .livraison li {
+  text-align: center;
+}
+.service .livraison img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin: 0 auto;
 }
