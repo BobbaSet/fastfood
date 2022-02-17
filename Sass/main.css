@@ -28,6 +28,7 @@ nav a {
 
 footer {
   background-color: black;
+  padding-bottom: 50px;
 }
 footer ul {
   display: flex;
@@ -41,15 +42,19 @@ footer ul {
 }
 footer ul img {
   width: 40px;
+  margin: 0 auto;
   height: 40px;
 }
 footer li {
   padding-right: 50px;
+  padding-top: 20px;
   padding-left: 50px;
+  text-align: center;
 }
 
 .para_footer {
   background-color: black;
+  padding-top: 20px;
   color: #d62525;
   margin: 0;
   font-size: 20px;
