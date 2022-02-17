@@ -29,27 +29,32 @@ nav a {
 footer {
   background-color: black;
   padding-bottom: 50px;
+  width: 1400px;
 }
-footer ul {
+footer .footer {
   display: flex;
   list-style: none;
   justify-content: center;
-  align-items: center;
   padding: 20px;
-  margin: 0;
+  margin: 0 auto;
   font-size: 16px;
   color: #d62525;
+  width: 500px;
 }
-footer ul img {
+footer .footer li {
+  text-align: center;
+  width: 100px;
+  padding: 20px;
+}
+footer .footer img {
   width: 40px;
-  margin: 0 auto;
   height: 40px;
 }
-footer li {
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-left: 50px;
+footer .footer a {
+  width: 100px;
   text-align: center;
+  text-decoration: none;
+  color: #d62525;
 }
 
 .para_footer {

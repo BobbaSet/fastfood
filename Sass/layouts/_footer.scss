@@ -3,29 +3,37 @@
 footer{
     background-color: black; 
     padding-bottom: 50px;
+    width: 1400px;
     
-    ul{
+    .footer{
         display: flex;
         list-style: none;
         justify-content: center;
-        align-items:center;
         padding: 20px;
-        margin: 0;
+        margin: 0 auto;  
         font-size: 16px;
         color: $menu;
+        width: 500px;
+
+        li{
+        text-align: center;
+        width: 100px;
+        padding: 20px;
+        }
 
         img{
             width: 40px;
-            margin: 0 auto;
             height: 40px;
-        }
-    }
 
-    li{
-        padding-right: 50px;
-        padding-top: 20px;
-        padding-left: 50px;
+            
+        }    
+    
+        a{
+        width: 100px;
         text-align: center;
+        text-decoration: none;
+        color: $menu;
+        }
     }
 }
    
