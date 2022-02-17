@@ -111,12 +111,10 @@ body {
   margin: 0 auto;
   width: 1400px;
 }
-
-h1, h2 {
+body h1, body h2 {
   font-family: "Dela Gothic One", cursive;
 }
-
-p, ul, li {
+body p, body ul, body li {
   font-family: "Oswald", sans-serif;
 }
 
@@ -204,4 +202,24 @@ p, ul, li {
 .menu .child {
   width: 700px;
   margin: 0;
+}
+
+.service {
+  width: 500px;
+  margin: 0 auto;
+}
+.service h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.service ul {
+  list-style: square;
+}
+.service li {
+  padding: 2px;
+  font-size: 20px;
+}
+.service .livraison {
+  display: flex;
+  list-style: none;
 }
