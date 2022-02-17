@@ -27,4 +27,10 @@ Livraison avant 04/03/2022 à 23h59.
 2. Création de la maquette
 3. Pages en HTML
 4. Création de l'architecture SASS
-
+5. Création du contenu dans la page HTML
+6. Mise en place du CSS avec SASS :
+	- Navigation
+	- Header
+	- Footer
+	- Body
+	- Index
