@@ -39,22 +39,27 @@ footer .footer {
   margin: 0 auto;
   font-size: 16px;
   color: #d62525;
-  width: 500px;
 }
 footer .footer li {
   text-align: center;
-  width: 100px;
   padding: 20px;
-}
-footer .footer img {
-  width: 40px;
-  height: 40px;
-}
-footer .footer a {
   width: 100px;
+}
+footer .footer li a {
   text-align: center;
   text-decoration: none;
+  width: 100px;
   color: #d62525;
+}
+footer .footer li a:hover {
+  text-decoration: underline;
+}
+footer .footer img {
+  width: 50px;
+  text-align: center;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .para_footer {

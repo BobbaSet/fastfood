@@ -13,27 +13,33 @@ footer{
         margin: 0 auto;  
         font-size: 16px;
         color: $menu;
-        width: 500px;
 
         li{
         text-align: center;
-        width: 100px;
         padding: 20px;
-        }
-
-        img{
-            width: 40px;
-            height: 40px;
-
-            
-        }    
-    
-        a{
         width: 100px;
+        
+        a{
         text-align: center;
         text-decoration: none;
+
+        width: 100px;
         color: $menu;
         }
+
+        a:hover{
+            text-decoration: underline;
+        }
+        }
+        img{
+            width: 50px;
+            text-align: center;
+            height: auto;
+            padding: 10px;
+            margin: 0 auto;
+        }    
+    
+       
     }
 }
    
