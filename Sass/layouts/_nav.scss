@@ -33,3 +33,41 @@ nav{
         }
     
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+    nav{
+        display: flex;
+        align-items: center;
+        width: 380px;
+        justify-content: space-between;
+        background-color: black;
+    
+            ul{
+                display: flex;
+                list-style: none;
+                color: rgb(201, 78, 78);
+            }
+    
+            li{
+                font-size: 12px;
+                padding: 12px;
+            }
+    
+            .food{
+                width: 20px;
+                height: 20px;
+            }
+    
+            img{
+                width: 100px;
+                height: 60px;
+            }
+    
+            a{
+                text-decoration:none;
+                color: $menu;
+                padding: 20px;
+            }
+        
+    }
+}
