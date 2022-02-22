@@ -22,3 +22,24 @@
       scroll-behavior: smooth;
     }
   }
+
+@media (min-width: 320px) and (max-width: 500px){
+  .btn{
+    height: 60px;
+    width: 60px;
+    background: $menu;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+
+    .icone{
+    width: 30px;
+    color: transparent;
+    }
+}
+}

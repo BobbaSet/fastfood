@@ -225,7 +225,7 @@ body p, body ul, body li {
   body {
     background-color: white;
     margin: 0 auto;
-    width: 500px;
+    width: 380px;
   }
 }
 .color {
@@ -291,6 +291,25 @@ body p, body ul, body li {
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .btn {
+    height: 60px;
+    width: 60px;
+    background: #d62525;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  .btn .icone {
+    width: 30px;
+    color: transparent;
   }
 }
 .flex_home {
