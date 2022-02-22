@@ -54,3 +54,50 @@ footer{
         font-size: 20px;
         text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+    footer{
+        background-color: black; 
+        padding-bottom: 50px;
+        padding-top: 20px;
+        width: 380px;
+        
+        
+        .footer{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            font-size: 16px;
+            color: $menu;
+    
+            li{
+            flex-direction: row;
+            text-align: center;
+            padding: 20px;
+            
+            a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            width: 100px;
+            color: $menu;
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+            }
+
+            img{
+                width: 50px;
+                text-align: center;
+                height: auto;
+                padding: 10px;
+                margin: 0 auto;
+            }    
+        }
+    }
+}

@@ -103,6 +103,46 @@ footer .footer img {
   text-align: center;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+  footer {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 380px;
+  }
+  footer .footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 16px;
+    color: #d62525;
+  }
+  footer .footer li {
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+  }
+  footer .footer li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    color: #d62525;
+  }
+  footer .footer li a:hover {
+    text-decoration: underline;
+  }
+  footer .footer img {
+    width: 50px;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+  }
+}
 #caroussel {
   width: 1400px;
   height: 600px;
