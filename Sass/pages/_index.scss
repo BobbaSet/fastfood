@@ -93,3 +93,100 @@
         }
     }
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+
+    .flex_home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        width: 380px;
+        flex-direction: column;
+
+        ul{
+            display: flex;
+            
+            list-style: none;
+            flex-direction: column;
+        }
+
+        li{
+            padding: 5px;
+        }
+    
+        #map {
+        width: 250px;
+        height: 250px;
+        }
+    }
+
+    .menu{
+        text-align: center;
+        background-color: black;
+        padding-bottom: 50px;
+        width: 380px;
+    
+        h2{
+            color: $menu;
+            font-size: 30px;
+            font-family: 'Dela Gothic One', cursive;
+        }
+        
+        img{
+            width: 380px;
+            height: 500px;
+            margin: 0;
+        }
+    
+        .bucket{
+            width: 380px;
+            height: 500px;
+        }
+    
+        .child{
+            width: 380px;
+            margin:0;
+        }
+    }
+
+    .service{
+        width: 380px;
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        h1{
+        text-align: center;
+        font-size: 30px;
+        }
+        ul{
+            list-style: square;
+        }
+        li{
+            padding: 2px;
+            font-size: 20px;
+        }
+    
+        .livraison{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            flex-direction: column;
+            margin-top: 40px;
+    
+            li{
+                text-align: center;
+                
+            }
+    
+            img{
+                width: 60px;
+                height: 60px;
+                padding: 10px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
