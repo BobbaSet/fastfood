@@ -36,3 +36,18 @@
         transform: translateX(0);
     }
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+    #caroussel{
+        width: 380px;
+        height: 600px;
+        overflow: hidden;
+        
+        .images{
+        display: flex;
+        animation-duration: 20s;
+        animation-name: foods;
+        animation-iteration-count: infinite;
+    }
+    }
+}

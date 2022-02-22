@@ -153,6 +153,22 @@ footer .footer img {
     transform: translateX(0);
   }
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  #caroussel {
+    width: 380px;
+    height: 600px;
+    overflow: hidden;
+  }
+  #caroussel .images {
+    display: flex;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-name: foods;
+            animation-name: foods;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+}
 body {
   background-color: white;
   margin: 0 auto;
