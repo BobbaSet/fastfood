@@ -133,6 +133,50 @@ footer .footer img {
   text-align: center;
 }
 
+@media (min-width: 500px) and (max-width: 890px) {
+  footer {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 780px;
+  }
+  footer .footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #d62525;
+  }
+  footer .footer li {
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+  }
+  footer .footer li a {
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    color: #d62525;
+  }
+  footer .footer img {
+    width: 50px;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .para_footer {
+    background-color: black;
+    padding-top: 20px;
+    color: #d62525;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   footer {
     background-color: black;
