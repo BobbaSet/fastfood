@@ -176,6 +176,29 @@ body p, body ul, body li {
   height: 230px;
 }
 
+.btn {
+  height: 80px;
+  width: 80px;
+  background: #d62525;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.btn .icone {
+  width: 50px;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 .flex_home {
   display: flex;
   justify-content: center;
