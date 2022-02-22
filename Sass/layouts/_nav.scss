@@ -34,6 +34,43 @@ nav{
     
 }
 
+@media (min-width: 500px) and (max-width: 890px){
+    nav{
+        display: flex;
+        align-items: center;
+        width: 780px;
+        justify-content: space-between;
+        background-color: black;
+    
+            ul{
+                display: flex;
+                list-style: none;
+                color: rgb(201, 78, 78);
+            }
+    
+            li{
+                padding: 10px;
+            }
+    
+            .food{
+                width: 30px;
+                height: 30px;
+            }
+    
+            img{
+                width: 160px;
+                height: 80px;
+            }
+    
+            a{
+                text-decoration:none;
+                color: $menu;
+                padding: 20px;
+            }
+        
+    }
+}
+
 @media (min-width: 320px) and (max-width: 500px){
     nav{
         display: flex;
